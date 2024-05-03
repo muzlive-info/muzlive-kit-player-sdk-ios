@@ -16,22 +16,22 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/bitmovin/player-ios.git", from: "3.27.0"),
-        .package(url: "https://github.com/youtube/youtube-ios-player-helper.git", from: "1.0.4") ,
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.1"),
+//        .package(url: "https://github.com/youtube/youtube-ios-player-helper.git", from: "1.0.4") ,
+//        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.1"),
     ],
     targets: [
         .binaryTarget(
             name: "KiTPlayerSDK",
-            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.13/KiTPlayerSDK.xcframework.zip",
-            checksum: "52450ef28186c59160a2a2b736957bece2f2d7a3ac1102637edbe546a85f3f33"
+            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.14/KiTPlayerSDK.xcframework.zip",
+            checksum: "55394e9e1e0753188cebd1d0d9e60f03a880332898a88b8a613c28e126a36e16"
         ),
         .target(
             name: "KiTPlayerSDKTarget",
             dependencies: [
                 "KiTPlayerSDK",
                 .product(name: "BitmovinPlayer", package: "player-ios"),
-                .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper"),
-                .product(name: "Lottie", package: "lottie-spm"),
+//                .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper"),
+//                .product(name: "Lottie", package: "lottie-spm"),
             ]
         ),
     ]
