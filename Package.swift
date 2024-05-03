@@ -22,8 +22,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KiTPlayerSDK",
-            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.12/KiTPlayerSDK.xcframework.zip",
-            checksum: "5441f08f6a1abd5249cdabff2506c11ec33357a4d6a9ecaf2db0dea97b5aae7d"
+            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.13/KiTPlayerSDK.xcframework.zip",
+            checksum: "52450ef28186c59160a2a2b736957bece2f2d7a3ac1102637edbe546a85f3f33"
         ),
         .target(
             name: "KiTPlayerSDKTarget",
