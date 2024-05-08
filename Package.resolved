@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BitmovinAnalytics",
+        "repositoryURL": "https://github.com/bitmovin/bitmovin-analytics-collector-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "3431fdbfb3098c0826b332ec52c869a30f20b947",
+          "version": "3.6.2"
+        }
+      },
+      {
+        "package": "BitmovinPlayer",
+        "repositoryURL": "https://github.com/bitmovin/player-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "6f33d39446d2aafeb59bc7ba977e1f55e31f1346",
+          "version": "3.61.0"
+        }
+      },
+      {
+        "package": "BitmovinPlayerCore",
+        "repositoryURL": "https://github.com/bitmovin/player-ios-core.git",
+        "state": {
+          "branch": null,
+          "revision": "aea256bbedf63d9b135cd45066867d5a1b050411",
+          "version": "3.61.0"
+        }
+      },
+      {
+        "package": "YouTubeiOSPlayerHelper",
+        "repositoryURL": "https://github.com/youtube/youtube-ios-player-helper.git",
+        "state": {
+          "branch": null,
+          "revision": "f57129cd4380ec0a74dd3a59da3270a1d653d59b",
+          "version": "1.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
