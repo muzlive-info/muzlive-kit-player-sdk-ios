@@ -17,13 +17,13 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/bitmovin/player-ios.git", from: "3.27.0"),
         .package(url: "https://github.com/youtube/youtube-ios-player-helper.git", from: "1.0.4") ,
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.3"),
+//        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.1"),
     ],
     targets: [
         .binaryTarget(
             name: "KiTPlayerSDK",
-            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.22/KiTPlayerSDK.xcframework.zip",
-            checksum: "2800912dc35a9392b0c0fc508c09ea7e72c2674fb0ef5b3184d58e132999d51b"
+            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.23/KiTPlayerSDK.xcframework.zip",
+            checksum: "8e2a57e22fd8fb48b864fc4e525d870d1be58a9c86ffaa3fdc2af3b59fcd1108"
         ),
         .binaryTarget(
             name: "GoogleCast",
@@ -36,7 +36,7 @@ let package = Package(
                 "GoogleCast",
                 .product(name: "BitmovinPlayer", package: "player-ios"),
                 .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper"),
-                .product(name: "Lottie", package: "lottie-spm"),
+//                .product(name: "Lottie", package: "lottie-spm"),
             ]
         ),
     ]
