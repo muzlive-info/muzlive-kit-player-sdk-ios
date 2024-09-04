@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "KiTplayerSDK"
+  spec.name         = "kitplayer-sdk"
   spec.version      = "0.0.1"
   spec.summary      = "KiTplayer SDK for iOS Framework"
   spec.description  = "KiTplayer SDK for iOS Framework KiTalbum tag and play"
