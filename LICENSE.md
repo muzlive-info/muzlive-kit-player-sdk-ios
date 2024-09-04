@@ -1,0 +1,1 @@
+# KiTplayer SDK LICENSE
