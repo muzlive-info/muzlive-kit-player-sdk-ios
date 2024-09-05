@@ -4,37 +4,35 @@
 import PackageDescription
 
 let package = Package(
-    name: "KiTPlayerSDK",
+    name: "KiTplayerSDK",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "KiTPlayerSDK",
-            targets: ["KiTPlayerSDKTarget"]
+            name: "KiTplayerSDK",
+            targets: ["KiTplayerSDKTarget"]
         ),
     ],
     dependencies: [
         .package(url: "https://github.com/bitmovin/player-ios.git", from: "3.27.0"),
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.3"),
     ],
     targets: [
         .binaryTarget(
-            name: "KiTPlayerSDK",
-            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.27/KiTPlayerSDK.xcframework.zip",
-            checksum: "e2abc7000881c3b854bf426959f70ff42edfe7e9920b4a4c26727d17a725b35a"
+            name: "KiTplayerSDK",
+            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.28/KiTplayerSDK.xcframework.zip",
+            checksum: "6e54c92de26a54bd4d83c2934aed2e0da0253f9f02f090bf643bc935caf2b60f"
         ),
         .binaryTarget(
             name: "GoogleCast",
             path: "Sources/GoogleCast/GoogleCast.xcframework"
         ),
         .target(
-            name: "KiTPlayerSDKTarget",
+            name: "KiTplayerSDKTarget",
             dependencies: [
-                "KiTPlayerSDK",
+                "KiTplayerSDK",
                 "GoogleCast",
                 .product(name: "BitmovinPlayer", package: "player-ios"),
-                .product(name: "Lottie", package: "lottie-spm"),
             ]
         ),
     ]
