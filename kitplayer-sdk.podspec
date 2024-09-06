@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.documentation_url = "https://kitbetter-web.github.io/kit-player-sdk-docs"
 
-  spec.source       = { :http => "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/vv1.0.30/kitplayer-sdk.zip", :sha1 => "549a292b18f6522e1d429423ae87182e6a0df253" }
+  spec.source       = { :http => "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.30/kitplayer-sdk.zip", :sha1 => "549a292b18f6522e1d429423ae87182e6a0df253" }
   spec.vendored_frameworks = 'KiTplayerSDK.xcframework', 'GoogleCast.xcframework'
 end
