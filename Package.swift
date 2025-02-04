@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KiTplayerSDK",
-            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/1.0.45/KiTplayerSDK.xcframework.zip",
-            checksum: "a2942252487d3cfda9e69d964e278e14c211ff429c9c4d84a3e03ba77fc64e22"
+            url: "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/1.0.46/KiTplayerSDK.xcframework.zip",
+            checksum: "59eeb3dca22e61f25f64c619a370798b71ebd3c5dc2f9c47a3c2b6e48a702f79"
         ),
         .binaryTarget(
             name: "GoogleCast",
