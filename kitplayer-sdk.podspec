@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "kitplayer-sdk"
-  spec.version      = "1.0.50"
+  spec.version      = "1.0.51"
   spec.summary      = "KiTplayer SDK for iOS Framework"
   spec.description  = "KiTplayer SDK for iOS Framework KiTalbum tag and play"
   spec.homepage     = "https://www.kitbetter.com"
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.documentation_url = "https://kitbetter-web.github.io/kit-player-sdk-docs"
 
-  spec.source       = { :http => "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.50/kitplayer-sdk.zip", :sha1 => "6c887b25fd9e96d92a3647b65e0200ed3e1677c7" }
+  spec.source       = { :http => "https://github.com/muzlive-info/muzlive-kit-player-sdk-ios/releases/download/v1.0.51/kitplayer-sdk.zip", :sha1 => "9c97af1da8b4e10fd15fdb9e2cf06936c2f5f040" }
   spec.vendored_frameworks = 'KiTplayerSDK.xcframework', 'GoogleCast.xcframework'
 
   spec.dependency 'BitmovinPlayer', '~> 3.70.0'
